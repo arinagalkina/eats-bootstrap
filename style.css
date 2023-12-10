@@ -1,0 +1,216 @@
+.promo {
+  background-image: url(./bg-main.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 131px 300px 165px 189px;
+}
+.text {
+  color: #f6f6f6;
+  text-align: center;
+
+  /* H3 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+  letter-spacing: 0.1px;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 137.931% */
+  letter-spacing: 0.2px;
+}
+.subtitle {
+  color: #f6f6f6;
+  text-align: center;
+
+  /* H4 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 158.333% */
+  letter-spacing: 0.2px;
+}
+.btn-app {
+  border-radius: 30px;
+  border: 1px solid #fff;
+  width: 236px;
+  height: 68px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+
+  color: #fff;
+
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+.btn-app:hover {
+  border-radius: 30px;
+  background: #fa4a0c;
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+  border: none;
+  transition: 0.6s all;
+}
+.title_expl {
+  color: #000;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 81.818% */
+  letter-spacing: 0.1px;
+  margin-bottom: 70px;
+  margin-top: 56px;
+}
+
+.account_text {
+  color: #fa4a0c;
+
+  /* H3 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+  letter-spacing: 0.1px;
+}
+
+.creation-or-login {
+  color: var(--text, #252b42);
+
+  /* H2 */
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px; /* 142.5% */
+  letter-spacing: 0.2px;
+}
+.paragraph {
+  color: var(--second-text, #737373);
+
+  /* H4 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 158.333% */
+  letter-spacing: 0.2px;
+}
+
+.title-order {
+  color: var(--Light-text, #fff);
+  text-align: center;
+
+  /* H2 */
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px; /* 142.5% */
+  letter-spacing: 0.2px;
+}
+.descr-order {
+  color: #fff;
+  text-align: center;
+
+  /* H4 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 158.333% */
+  letter-spacing: 0.2px;
+}
+
+.order {
+  background-image: url(./bg-2.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 131px 300px 165px 189px;
+}
+
+.btn-order {
+  border-radius: 10px;
+  background: #fa4a0c;
+  color: var(--Light-text, #fff);
+
+  /* Button */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.2px;
+
+  padding: 18px 31px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-order-second {
+  border-radius: 10px;
+  border: 1px solid var(--Light-background, #fff);
+  color: var(--Light-text, #fff);
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  /* Button */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.2px;
+  display: flex;
+  padding: 16px 45px;
+  gap: 10px;
+  cursor: pointer;
+}
+.link {
+  color: var(--text, #252b42);
+  text-align: center;
+
+  /* Link */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.2px;
+}
+
+.link-dif {
+    color: #FA4A0C;
+text-align: center;
+
+/* Link */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; /* 175% */
+letter-spacing: 0.2px;
+}
